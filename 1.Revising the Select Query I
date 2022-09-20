@@ -1,0 +1,11 @@
+-- select * from city where POPULATION >100000 && COUNTRYCODE="USA";
+
+Select ID, NAME, COUNTRYCODE, DISTRICT, POPULATION 
+        from CITY 
+Where COUNTRYCODE = "USA" AND 
+POPULATION> 100000; 
+
+
+
+-- our two conditions. above 
+
